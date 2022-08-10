@@ -99,7 +99,7 @@ article{
     border-radius: 8px;
     margin-top: 1.5rem;
     padding: 1.7rem;
-    box-shadow: 0 5px 20px hsl(212, 57%, 91%);
+    box-shadow: 0 5px 30px -5px hsl(210, 70%, 87%);
 }
 article > h1 {
     font-size: 1.3rem;
