@@ -60,7 +60,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200vh;
+    min-height: 170vh;
 }
 .container {
     max-width: 320px;
@@ -72,10 +72,12 @@ body {
     font-size: 1.6rem;
     font-weight: 200;
     margin-bottom: 0.5rem;
+    color: hsl(234, 12%, 34%);
 }
 .first-section > h2 {
     font-size: 1.6rem;
     font-weight: 600;
+    color: hsl(234, 12%, 34%);
 }
 .first-section > p {
     margin-top: 1.5rem;
@@ -85,35 +87,67 @@ body {
     color: hsl(229, 6%, 66%);
 }
 img {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+    left: 12.5rem;
 }
 .second-section {
     margin-top: 2rem;
 }
 article{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-top: 1.5rem;
     padding: 1.7rem;
+    box-shadow: 0 5px 20px hsl(212, 57%, 91%);
 }
 article > h1 {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.9rem;
+    color: hsl(234, 12%, 34%);
 }
 article > p {
     font-size: 0.85rem;
     line-height: 1.5;
+    color: hsl(229, 6%, 66%);
 }
 .first-article {
-    border-top: 0.2rem solid hsl(180, 62%, 55%);
+    border-top: 0.25rem solid hsl(180, 62%, 55%);
 }
 .second-article {
-    border-top: 0.2rem solid hsl(0, 78%, 62%);
+    border-top: 0.25rem solid hsl(0, 78%, 62%);
 }
 .third-article {
-    border-top: 0.2rem solid hsl(34, 97%, 64%);
+    border-top: 0.25rem solid hsl(34, 97%, 64%);
 }
 .fourth-article {
-    border-top: 0.2rem solid hsl(212, 86%, 64%);
+    border-top: 0.25rem solid hsl(212, 86%, 64%);
+}
+
+@media screen and (min-width: 1100px) {
+    body {
+        min-height: 100vh;
+    }
+    .container {
+        max-width: 1100px;
+    }
+    .second-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 2rem;
+    }
+    img  {
+        left: 14.5rem;
+    }
+    .first-section > h1 {
+        font-size: 2.3rem;
+    }
+    .first-section > h2 {
+        font-size: 2.3rem;
+    }
+    .first-section > p {
+        padding: 0 17rem;
+    }
 }
