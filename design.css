@@ -60,13 +60,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 170vh;
+    min-height: 100vh;
 }
 .container {
     max-width: 320px;
 }
 .first-section {
     text-align: center;
+    margin-top: 2rem;
 }
 .first-section > h1 {
     font-size: 1.6rem;
@@ -123,6 +124,7 @@ article > p {
 }
 .fourth-article {
     border-top: 0.25rem solid hsl(212, 86%, 64%);
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 960px) {
